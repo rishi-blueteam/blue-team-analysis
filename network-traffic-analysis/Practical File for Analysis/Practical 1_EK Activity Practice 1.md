@@ -156,7 +156,8 @@ Have to edit
 
 - <a> https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/exploit-kit/ </a>
 
-- Screenshot Link [to be Added] 
+- Screenshot Link:<a> https://github.com/RISHIISVERYCOOL/blue-team-analysis/commit/6e08a9166fef7f4aec135882e0a746ee65081ae6 </a>
+
 
 
 
