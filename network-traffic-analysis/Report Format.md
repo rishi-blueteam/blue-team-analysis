@@ -1,184 +1,107 @@
-**## Case Overview**
+## Case Overview
 
+**Source:** MalwareTrafficAnalysis.net
 
+**Exercise Name | Date:** 
 
-**- Source:** MalwareTrafficAnalysis.net
+**PCAP File Name:** 
 
-**- Exercise Name | Date:** 
+**Traffic Time Range:** 
 
-**- PCAP File Name:** 
+**File Link:** 
 
-**- Traffic Time Range:** 
+**Suspected Malware Family (if known):**
 
-**- File Link:** 
+**Analysis Tool(s):** Wireshark
 
-**- Suspected Malware Family (if known):**
+<br>
 
-**- Analysis Tool(s):** Wireshark
+## Scenario Summary
+Briefly describe the scenario provided in the exercise.Example: The traffic appears to originate from a Windows host communicating with external IPs, indicating a possible malware infection following a malicious email.
 
+<br>
 
+## Environment & Initial Observations
 
+**Internal IP range:**
 
+**Suspected victim IP:**
 
-**## Scenario Summary**
+**Notable protocols observed:**
 
+**Timezone used for analysis:**
 
+<br>
 
-Briefly describe the scenario provided in the exercise.
+## Questions For Analysis
 
-Example: The traffic appears to originate from a Windows host communicating with external IPs, indicating a possible malware infection following a malicious email.
+### L1- Basic Level Questions
 
+**Question-1:**
 
+**Answer**
 
+<br>
 
+### Level 2 – Intermediate Level
 
-**## Environment \& Initial Observations**
+**Question**
 
+**Answer:**
 
+<br>
 
-**- Internal IP range:**
+### Level 3 – Basic Findings**
 
-**- Suspected victim IP:**
+**Question**
 
-**- Notable protocols observed:**
+**Answer**
 
-**- Timezone used for analysis:**
+<br>
 
+## Wireshark Filters Used
 
+-
+-
+-
 
+<br>
 
+## Indicators of Compromise (IOCs)
+- Any Domains
+- User Agents
+- IP-ADDRESS
+- RE-Directs
 
+<br>
 
 
-**## Level 1 – Basic Findings**
+## Key Takeaways & Learning
 
+### What I learned from this analysis
+-
 
+### Mistakes or confusion faced
+-
 
-**### Question**
+### New Wireshark techniques used
+-
 
-**- Answer**
+### What I would investigate further in a real SOC
+-
 
-**-** 
+<br>
 
 
+## References
 
-**### Question** 
+- MalwareTrafficAnalysis.net exercise page
 
-**- Answer:**
+- Any malware research links (if used)
 
-**-** 
+- Screenshot Link
+  
 
-
-
-
-
-**## Level 2 – Intermediate Level**
-
-
-
-**### Question**
-
-**- Answer**
-
-**-**
-
-
-
-**### Question**
-
-**- Answer:**
-
-**-**
-
-
-
-**## Level 3 – Basic Findings**
-
-
-
-**### Question**
-
-**- Answer**
-
-**-**
-
-
-
-**### Question**
-
-**- Answer:**
-
-**-**
-
-
-
-
-
-\## Wireshark Filters Used
-
-\- ip.addr == x.x.x.x
-
-\- dns
-
-\- http.request
-
-\- tcp.stream eq X
-
-
-
-
-
-**## Indicators of Compromise (IOCs)**
-
-
-
-**### IP Addresses**
-
-\- x.x.x.x
-
-
-
-**### Domains**
-
-\- malicious-example\[.]com
-
-
-
-**### URLs**
-
-\- http://example\[.]com/payload.exe
-
-
-
-**### User-Agents**
-
-\- Mozilla/4.0 (compatible; MSIE...)
-
-
-
-
-
-**## Key Takeaways \& Learning**
-
-
-
-\- What I learned from this analysis
-
-\- Mistakes or confusion faced
-
-\- New Wireshark techniques used
-
-\- What I would investigate further in a real SOC
-
-
-
-
-
-\## References
-
-\- MalwareTrafficAnalysis.net exercise page
-
-\- Any malware research links (if used)
 
 
 
