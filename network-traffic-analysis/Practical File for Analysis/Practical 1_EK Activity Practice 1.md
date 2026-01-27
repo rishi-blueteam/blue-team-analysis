@@ -2,7 +2,7 @@
 
 **Source:** MalwareTrafficAnalysis.net
 
-**Exercise Name:** | Date: EK Activity Practice Exercise
+**Exercise Name:** Practical 1_EK Activity Practical
 
 **PCAP File Name:** "2014-11-08-traffic-analysis-exercise.pcap"
 
@@ -157,6 +157,7 @@ Have to edit
 - <a> https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/exploit-kit/ </a>
 
 - Screenshot Link:<a> https://github.com/RISHIISVERYCOOL/blue-team-analysis/commit/6e08a9166fef7f4aec135882e0a746ee65081ae6 </a>
+
 
 
 
