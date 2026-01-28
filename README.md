@@ -8,7 +8,7 @@ This repository documents my hands-on learning and practical analysis across cor
 
 ## Focus Areas Covered
 
-- Phihsing Analysis
+- Phishing Analysis
 - Network Traffic Analysis
 
 I also aim to cover other key areas where my interest goes along with tools, use cases and exploring other key blue team areas.
