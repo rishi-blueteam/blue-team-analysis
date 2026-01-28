@@ -8,7 +8,7 @@ This repository documents my hands-on learning and practical analysis across cor
 
 ## Focus Areas Covered
 
-- [Phishing Analysis](Phishing Analysis)
+- [Phishing Analysis](https://github.com/rishi-blueteam/blue-team-analysis/tree/b395fb62c17a39db2331f9d6335e1c149906a8d0/Phishing%20Analysis)
 - Network Traffic Analysis
 
 I also aim to cover other key areas where my interest goes along with tools, use cases and exploring other key blue team areas.
