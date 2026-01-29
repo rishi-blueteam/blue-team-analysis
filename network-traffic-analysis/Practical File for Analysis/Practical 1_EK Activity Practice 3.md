@@ -19,7 +19,7 @@
 
 
 
-**## Scenario Summary**
+## Scenario Summary
 
 Another practice scenario where the client is trying to access a website but turns out the site has been compromised and gives way for the attacker to add in a Exploit Kit in the form of Flash and Java File. It is a part of **"CVE-2014"**. I have able to notice, be able to use the filters wisely, go through number of packets to find the right the domains, redirects, suspicious links found during the whole analysis. Another EK Activity has been bagged down 4 more left to understand the scope of the problem caused on a unsafe HTTP protocol level.    
 
@@ -60,7 +60,9 @@ Another practice scenario where the client is trying to access a website but tur
 
 **Question_1.2** What is the host name of the Windows VM that gets infected?
 
-**Answer** K34EN6W3N-PC
+**Answer** K34EN6W3N-PC 
+
+I used the [NBNS filter](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20NBNS.png) to extract the host name of the user
 
 **Question_1.3** What is the MAC address of the infected VM?
 
@@ -93,25 +95,20 @@ Another practice scenario where the client is trying to access a website but tur
 
 **Answer** 24corp[-]shop[.]com
 
+The term referer is the actual source from the site we are viewing is often listed and seen. Refer to [this](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20Re%20Directed%20Site%2C%20and%20Point%20from%20where%20it%20was%20re-directed%20.png)
+
+
 **Question_L2.2** Besided the landing page (which contains the CVE-2013-2551 IE exploit), what other exploit(s) sent by the EK?
 
 **Answer** The EK visible are X-shockwave-flash, and Java-Archive
 
 **Question_L2.3** How many times was the payload delivered?
 
-**Answer** 4 times in total [EK Exploits Image]
-
-**Question** Submit the pcap to VirusTotal and find out what snort alerts triggered.  What are the EK names are shown in the Suricata alerts?
-
-**Answer**
-
-
+**Answer** 3 times in total [EK Exploits Image]
 
 <br>
 
-
 ### Level 3 – Advance Findings
-
 
 **Question**  What file or page from the compromised website has the malicious script with the URL for the redirect?
 
@@ -126,14 +123,14 @@ Java: 1e34fdebbf655cebea78b45e43520ddf
 
 > This has been extracted after we have downloaded the exploit via Wireshark.
 
+<br>
+
 **Question** What file from the compromised website has an iframe for the redirect URL?
 
 **Answer:**
 [<]iframe src='http[:]//stand[.]trustandprobaterealty[.]com/?PHPSSESID=njrMNruDMhvJFIPGKuXDSKVbM07PThnJko2ahe6JVg|ZDJiZjZiZjI5Yzc5OTg3MzE1MzJkMmExN2M4NmJiOTM'[>]
 
-[Image] 
-[Image]
-
+I had to follow through the HTTP where it prompted the user to redirect so first I used the http.request filter to find each time a new domain request has been made, and once I landed to the site (24corp[-]shop[.]com) the original source from where it asked to go to the malicous site (www[.]stand[.]trustandprobaterly[.]com), as seen in this [image](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20icon_link1.png) and I could find it within the lines of the code as seen [here](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20NBNS.png)  
 
 **Question** What are the snorts alert which are generated? 
 
@@ -152,46 +149,44 @@ Java: 1e34fdebbf655cebea78b45e43520ddf
 
 
 
-**## Wireshark Filters Used**
+## Wireshark Filters Used
 
+- **tcp.stream eq 20** (It shows a whole new tcp connection of a client trying to form one with a server but specially only and if the session is same but re-directed to a new site for a new session)
 
+- **tcp.stream eq 19** (This filter helped to identify a whole tcp connection process from SYN, SYN-ACK, DATA, to FIN/RST)
 
-- tcp.stream eq 20 (It shows a whole new tcp connection of a client trying to form one with a server but specially only and if the session is same but re-directed to a new site for a new session)
+- **http** or **http.request** to find sites contacted with, which I could alternatively use with http.request for better responses
 
-- tcp.stream eq 19 (This filter helped to identify a whole tcp connection process from SYN, SYN-ACK, DATA, to FIN/RST)
+- **http.type_content**: To filter out and find the exploit kits which are being used or which is a potential malware
 
-- http to find sites contacted with, which I could alternatively use with http.request for better responses
-
-- http.content: To filter out and find the exploit kits which are being used or which is a potential malware
-
+- **NBNS** for host name of the endpoint
 
 
 <br>
 
 
-
 ## Indicators of Compromise (IOCs)
 
-Any Suspicious Domains: 
+**Any Suspicious Domains:**
 
 - 4corp-shop.com
 - stand.trustandprobaterealty.com
 - adultbiz.in
 
-User Agents
+**User Agents**
 
 - Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0) | | URL: http[:]//stand[.]trustandprobaterealty[.]com/?PHPSSESID=njrMNruDMhvJFIPGKuXDSKVbM07PThnJko2ahe6JVg|ZDJiZjZiZjI5Yzc5OTg3MzE1MzJkMmExN2M4NmJiOTM  
 
-- User Agent
-Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)  | URL: http[:]//24corp-shop[.]com/
+- Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)  | URL: http[:]//24corp-shop[.]com/
 
-IP-Address
+**IP-Address**
 
 - 188.225.73.100
 
 - 37.200.69.143:80
 
-RE-Directs
+**RE-Directs Links**
+
 - 4corp-shop.com
 
 - stand.trustandprobaterealty.com
@@ -211,11 +206,7 @@ RE-Directs
 
 
 
-
-
 ## Key Takeaways & Learning
-
-
 
 ### What I learned from this analysis
 
@@ -227,22 +218,18 @@ RE-Directs
 
 
 
-**### Mistakes or confusion faced**
+### Mistakes or confusion faced
 
--
+Having answers with you always makes you be aware and learn more and hence I was able note mistakes and confusion:
+
+- The big confusion between the filter of tcp.stream eq 19 && tcp.stream eq 20. Initially they are belonging to same ideaolgy of TCP connection but for a different purpose 
+
 
 
 
 **### New Wireshark techniques used**
 
--
-
-
-
-**### What I would investigate further in a real SOC**
-
--
-
+- 
 
 
 <br>
@@ -251,19 +238,16 @@ RE-Directs
 
 
 
-**## References**
+## References
 
 
-
-- MalwareTrafficAnalysis.net exercise page
+- [MalwareTrafficAnalysis.net](https://www.malware-traffic-analysis.net/index.html) source for PCap's
 
 
 
 - Any malware research links (if used)
 
 
-
-- Screenshot Link
 
 
 
