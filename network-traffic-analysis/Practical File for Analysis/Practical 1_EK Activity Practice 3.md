@@ -62,7 +62,7 @@ Another practice scenario where the client is trying to access a website but tur
 
 **Answer** K34EN6W3N-PC 
 
-I used the [NBNS filter](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20NBNS.png) to extract the host name of the user
+I used the NBNS filter ![NBNS Filter for Windows Host](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20NBNS.png) to extract the host name of the user
 
 **Question_1.3** What is the MAC address of the infected VM?
 
@@ -95,16 +95,17 @@ I used the [NBNS filter](https://github.com/rishi-blueteam/blue-team-analysis/bl
 
 **Answer** 24corp[-]shop[.]com
 
-The term referer is the actual source from the site we are viewing is often listed and seen. Refer to [this](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20Re%20Directed%20Site%2C%20and%20Point%20from%20where%20it%20was%20re-directed%20.png)
+The term referer is the actual source from the site we are viewing is often listed and seen in this image ![Redirected Wbsite](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20Re%20Directed%20Site%2C%20and%20Point%20from%20where%20it%20was%20re-directed%20.png)
 
 
 **Question_L2.2** Besided the landing page (which contains the CVE-2013-2551 IE exploit), what other exploit(s) sent by the EK?
 
-**Answer** The EK visible are X-shockwave-flash, and Java-Archive
+**Answer** The EK visible are X-shockwave-flash, and Java-Archive 
+![Visible Exploits](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20Shockwave.png)
 
 **Question_L2.3** How many times was the payload delivered?
 
-**Answer** 3 times in total [EK Exploits Image]
+**Answer** 3 times in total ![Payload Delievered](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20Exploit%20Numbers.png)
 
 <br>
 
@@ -130,7 +131,7 @@ Java: 1e34fdebbf655cebea78b45e43520ddf
 **Answer:**
 [<]iframe src='http[:]//stand[.]trustandprobaterealty[.]com/?PHPSSESID=njrMNruDMhvJFIPGKuXDSKVbM07PThnJko2ahe6JVg|ZDJiZjZiZjI5Yzc5OTg3MzE1MzJkMmExN2M4NmJiOTM'[>]
 
-I had to follow through the HTTP where it prompted the user to redirect so first I used the http.request filter to find each time a new domain request has been made, and once I landed to the site (24corp[-]shop[.]com) the original source from where it asked to go to the malicous site (www[.]stand[.]trustandprobaterly[.]com), as seen in this [image](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20icon_link1.png) and I could find it within the lines of the code as seen [here](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20NBNS.png)  
+I had to follow through the HTTP where it prompted the user to redirect so first I used the http.request filter to find each time a new domain request has been made, and once I landed to the site (24corp[-]shop[.]com) the original source from where it asked to go to the malicous site (www[.]stand[.]trustandprobaterly[.]com), as seen in this ![HTTP Content Format for Brief Description using Wireshark Tool](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20icon_link1.png) and I could find it within the lines of the code as seen ![The Link to file hidden in the icon or rather iframe of an image](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%203/EK%20Activity%20Practice%203%20icon_link2.png)  
 
 **Question** What are the snorts alert which are generated? 
 
@@ -222,12 +223,22 @@ I had to follow through the HTTP where it prompted the user to redirect so first
 
 Having answers with you always makes you be aware and learn more and hence I was able note mistakes and confusion:
 
-- The big confusion between the filter of tcp.stream eq 19 && tcp.stream eq 20. Initially they are belonging to same ideaolgy of TCP connection but for a different purpose 
+- The big confusion between the filter of tcp.stream eq 19 && tcp.stream eq 20. Initially they are belonging to same ideaolgy of TCP connection but for a different purpose.
+  
+- Looking only for one potential EK and not rather others due to either confusion or lack of context. As according to the question and past training I have always thought that the question is asking to me understand an existing CVE that has been existing but it aint true due to the reason that there are more exploits that exists.
+
+
+- How the flash Exploits, JavaScript Exploits, or PDF Exploits exists is a still a confusing factor but able to be exposed to learn and ask more questions as I discover makes me aware.
+
+
+- Using a filter is not enough, but going to the dept to see lesser packets and detailed solutions is often the right approach. So for finding out the request pages where the client has clicked I used **http** as a filter but for even better results, I could have used **htt.request** as a filter to narrow the search down to the first time the user gets to a new site.   
 
 
 
 
-**### New Wireshark techniques used**
+### New Wireshark techniques or filters learned and used
+
+- tcp.stream eq 19 and tcp.stream eq 20 
 
 - 
 
@@ -246,6 +257,7 @@ Having answers with you always makes you be aware and learn more and hence I was
 
 
 - Any malware research links (if used)
+
 
 
 
