@@ -213,9 +213,9 @@ I had to follow through the HTTP where it prompted the user to redirect so first
 
 - TLS application data: Encrypted TLS application data was observed between the victim host and a Google CDN domain prior to a redirect event. This traffic likely represents normal HTTPS content delivery or script execution, as redirects can be triggered from within encrypted responses.
 
-- I have been able to understand the filters better the, right understanding of filters, the way of making sense of how the packet data transfer has taken place.
+- I have been able to understand the filters better the, right understanding of filters, the way of making sense of how the packet data transfer has taken place, how to narrow down searches. 
 
-- 
+- Learned about a more variety of Exploit Kit which is in the form of **/X-MS-download** this is often found when an attacker is trying to load in Trojan or Malware files in the compromissed website and will often be seen in the format of .exe or .dll as they often get downloaded on the user machine. 
 
 
 
@@ -228,7 +228,7 @@ Having answers with you always makes you be aware and learn more and hence I was
 - Looking only for one potential EK and not rather others due to either confusion or lack of context. As according to the question and past training I have always thought that the question is asking to me understand an existing CVE that has been existing but it aint true due to the reason that there are more exploits that exists.
 
 
-- How the flash Exploits, JavaScript Exploits, or PDF Exploits exists is a still a confusing factor but able to be exposed to learn and ask more questions as I discover makes me aware.
+- How the flash Exploits, JavaScript Exploits, or PDF Exploits exists is a still a confusing factor but able to be exposed to learn and ask more questions as I discover makes me aware. So I missed out on an exploit of 
 
 
 - Using a filter is not enough, but going to the dept to see lesser packets and detailed solutions is often the right approach. So for finding out the request pages where the client has clicked I used **http** as a filter but for even better results, I could have used **htt.request** as a filter to narrow the search down to the first time the user gets to a new site.   
@@ -239,6 +239,8 @@ Having answers with you always makes you be aware and learn more and hence I was
 ### New Wireshark techniques or filters learned and used
 
 - tcp.stream eq 19 and tcp.stream eq 20 
+
+- http.request
 
 - 
 
@@ -257,6 +259,7 @@ Having answers with you always makes you be aware and learn more and hence I was
 
 
 - Any malware research links (if used)
+
 
 
 
