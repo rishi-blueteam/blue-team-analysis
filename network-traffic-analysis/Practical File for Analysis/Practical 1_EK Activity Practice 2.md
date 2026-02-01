@@ -41,7 +41,7 @@ Briefly describe the scenario provided in the exercise.Example: The traffic appe
 
 
 
-## Environment \& Initial Observations
+## Environment & Initial Observations
 
 
 
@@ -62,11 +62,11 @@ Briefly describe the scenario provided in the exercise.Example: The traffic appe
 
 
 
-## **Questions For Analysis
+## Questions For Analysis
 
 
 
-### L1- Basic Level **Questions
+### L1- Basic Level Questions
 
 **Question 1.1: What is the date and time of this activity?**
 
@@ -77,6 +77,7 @@ Briefly describe the scenario provided in the exercise.Example: The traffic appe
 **Question 1.2: What is the IP address of the Windows host that gets infected?**
 
 **Answer 1.2:** 192.168.204[.]137
+
 
 <br>
 
@@ -89,13 +90,14 @@ Briefly describe the scenario provided in the exercise.Example: The traffic appe
 **Question 1.4: What is the host name of the infected Windows host?**
 
 **Answer  1.4:** 38NTRGDFQKR-PC<00>
+![NBNS HOST_IP_MAC_NAME](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/NBNS_Windows%20Host%20Name.png)
 
 <br>
 
 **Question 1.5: What is the domain name of the compromised web site?**
 
 **Answer 1.5:**  Destination Address: excelforum[.]com 
- 
+ ![Compromised Website](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Compromised%20Website.png)
 
 
 <br>
@@ -103,20 +105,21 @@ Briefly describe the scenario provided in the exercise.Example: The traffic appe
 **Question 1.6: What is the IP address of the compromised web site?**
 
 **Answer  1.6:** 69.167[.]155[.]134
+![IP OF Compromised Website](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Compromised%20Website_IP.png)
 
 <br>
 
 **Question 1.7: What is the domain name that delivered the exploit kit (EK) and malware payload?**
 
 **Answer  1.7:** digiwebname[.]in 
- 
+ ![Delivering Payload](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Delivering%20Payload.png)
 
 
 <br>
 
 **Question 1.8: What is the IP address that delivered the EK and malware payload?**
 
-**Answer  1.8:** 205.234.186.111
+**Answer  1.8:** 205.234.186[.]111
 
 <br>
 
@@ -131,7 +134,7 @@ Briefly describe the scenario provided in the exercise.Example: The traffic appe
 **Question 2.2: What exploit kit (EK) is observed (Angler, Nuclear, Neutrino, etc.)?**
 
 **Answer  2.2:** Flash-ShockWave, X-Silverlight-App, PDF, Java
-
+![Extra Exploits](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Extra%20Exploits%20.png)
 <br>
 
 **Question 2.3: What is the redirect URL that points to the EK landing page?**
@@ -139,14 +142,15 @@ Briefly describe the scenario provided in the exercise.Example: The traffic appe
 **Answer  2.3:**  http[:]//magggnitia[.]com/?Q2WP=p4VpeSdhe5ba&nw3=9n6MZfU9I_1Ydl8y&9M5to=_8w6t8o4W_abrev&GgiMa=8Hfr8Tlcgkd0sfV&t6Mry=I6n2
 
 The client aimed tried to form a connection with the site it wished to access "excelforum[.]com" but since the website is compromised we can see in the pcap that after sending multiple SYN packets its page was redirected to the above domain.
-![Redirected Domian Image-1]()
+![Redirected Domian Image-1](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Magenta_JS_RE-Direct-1.png) 
+![Redirected Image-2](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Magenta_JS_RE-Direct-2.png)
 
 <br>
 
 **Question 2.4: What is the IP address of the redirect URL that points to the EK landing page?**
 
 **Answer  2.4:** 94.242.216.69
-![IP-Address of EK Landing Page]()
+![IP-Address of EK Landing Page](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Magenta_JS_RE-Direct_IP%20address.png)
 
 
 <br>
@@ -157,13 +161,13 @@ The client aimed tried to form a connection with the site it wished to access "e
 
 Since it was in excrypted form it was noted about 5 times 
 
-![5 times Exploit]()
+![5 times Exploit](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Payload%20Number%20of%20Delivery.png)
 
 <br>
 
 **Question 2.6: Which HTTP request method (GET or POST) is responsible for the post-infection traffic caused by the malware?**
 
-**Answer  2.6:** 
+**Answer  2.6:**  
 
 <br>
 
@@ -174,7 +178,7 @@ Since it was in excrypted form it was noted about 5 times
 **Answer  3.1:** 
 
 It was determined by following the HTTP stream of the exploit and we were able to determine via the user agent 
-![Infected Windows Host]()
+![Infected Windows Host](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/User%20Agent%20for%20infected%20Windows%20Hosts.png)
 
 <br>
 
@@ -190,19 +194,18 @@ It was determined by following the HTTP stream of the exploit and we were able t
 
 - "Shockwave Flash" : Mon, 08 Dec 2014 23:20:11 GMT
 
-![Last Modeified Image SF_FIle]()
+![Last Modeified Image SF_FIle](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Modified%20Creation%20SF.png)
 
 - "Application/PDF" : Mon, 08 Dec 2014 23:20:15 GMT
 
-![Last Modeified Image pdf_FIle]()
+![Last Modeified Image pdf_FIle](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Modified%20Creation%20PDF.png)
 
 - "application/silverlight" : Mon, 08 Dec 2014 23:20:15 GMT
 
-![Last Modeified Image silverlight_FIle]()
+![Last Modeified Image silverlight_FIle](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Modified%20Creation%20SilverLight.png)
 
 - "Java-Archive File" : Mon, 08 Dec 2014 23:20:45 GMT
-![Last Modeified Image Java_Archive]()
-
+![Last Modeified Image Java_Archive](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/EK%20Exercise%20/Exercise%202/Modified%20Creation%20jar_file.png)
 
 <br>
 
@@ -296,7 +299,7 @@ It was determined by following the HTTP stream of the exploit and we were able t
 
 
 
-## References**
+## References
 
 
 
