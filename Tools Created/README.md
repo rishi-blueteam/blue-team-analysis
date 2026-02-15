@@ -1,6 +1,6 @@
 <h1> E-Mail Analysis Tool </h1> 
 
-<p> This tool has been made with an intent to help my IOC collection to faster, efficient and reliable during documenting of Phishing Analysis. These tool has the following capbailities embedded into it: </p>
+<p> Developed a Python-based parser to extract sender details, IP addresses, message IDs, and attachments from email headers. Automated IOC extraction and implemented IP defanging for safer analysis. Used AI-assisted development to accelerate scripting and focused on customizing logic and testing against real samples. </p>
 
 <h2>E-Mail Analyzer Tool Features</h2>
 
@@ -47,4 +47,5 @@
 * Attachment Hashes
 * Hash Threat Score Detection
 * Password Protected Achieve Detection
+
 
