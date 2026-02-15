@@ -5,8 +5,8 @@
 <h2>E-Mail Analyzer Tool Features</h2>
 
 1. Basic Information Extracter
-2. Header Analysis
-3. Threat Intelligence
+2. Header Analysis [In Development]
+3. Threat Intelligence [In Development]
 
 <h3> 1. Basic Information Extractor</h3>
 
@@ -47,5 +47,6 @@
 * Attachment Hashes
 * Hash Threat Score Detection
 * Password Protected Achieve Detection
+
 
 
