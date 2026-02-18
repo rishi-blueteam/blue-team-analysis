@@ -409,11 +409,13 @@
 
 - VirusTotal
 
-- WHOIS Lookup
+- WHOIS Domain Lookup
 
-- 
-
-- Email Parser Tool (For header analysis, and IP collection)
+- ReverseIP Lookup
+- URLVoid
+- URL2PNG
+- CheckPhish
+- Email Parser Tool (For header analysis, and IP collection) (Rishab Shorey)
 
 
 
@@ -427,20 +429,21 @@
 
 ### Email Screenshot
 
-(Insert image)
+![Email SS](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%204/Email%20SS.png)
 
 
 
 ### URL Page Screenshot
 
-(Insert image)
-
-
+![url](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%204/Site%20Not%20Found.png)
 
 ### Attachment Preview
 
-(Insert image)
+![Attachment Preview](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%204/PDF%20File%20Analysis.png)
 
+### Attachment Threat Score 
+
+![Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%204/File%20Analysis%20Threat%20Score.png)
 
 
 ---
@@ -454,6 +457,7 @@ Rishab Shorey
 
 
 ---
+
 
 
 
