@@ -254,11 +254,11 @@ What version of Flash Player is the Windows host using?
 <br>
 
 
-## Key Takeaways \& Learning**
+## Key Takeaways \& Learning
 
 
 
-### What I learned from this analysis**
+### What I learned from this analysis
 
 **SWF:** 
 
@@ -293,21 +293,9 @@ What version of Flash Player is the Windows host using?
 
 
 
-## References
-
-
-
-- MalwareTrafficAnalysis.net exercise page
-
-
-
-- Any malware research links (if used)
-
-
-
-- Screenshot Link
 
 &nbsp; 
+
 
 
 
