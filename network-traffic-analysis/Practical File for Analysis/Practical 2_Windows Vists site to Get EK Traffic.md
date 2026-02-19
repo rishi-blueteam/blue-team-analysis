@@ -79,7 +79,7 @@ What is the date and time of this activity?
 
 **Answer 1.1:** 2015-01-09 | 16:24:40 - 16:26:21
 
-![Image of the Attack and activity taking place]()
+![Image of the Attack and activity taking place](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic./Date%20and%20Time%20of%20activity.png)
 
 ---
 
@@ -90,6 +90,7 @@ What is the IP address and MAC address of the Windows host that hit the exploit 
 
 **IP-ADDRESS :** 192.168.204.137 | 00:0c:29:9d:b8:6d
 
+![Source IP and MAC](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic./Source%20IP%20and%20MAC.png)
 
 
 ---
@@ -99,8 +100,11 @@ What is the domain name and IP address of the compromised web site?
 
 **Answer 1.3:** www[.]opushangszer[.]hu/ | 94.199.178.119
 
-![iMAGE OF Redirect 1,2 and final]()
-![Iamge of the Site Compromsied Threat Score]()
+![iMAGE OF Redirect 1,2 and final](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic./First%20Redirect%20SWK%201.png)
+
+![iMAGE OF Redirect 1,2 and final](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic./First%20Redirect%20SWK%202.png)
+
+![Iamge of the Site Compromsied Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic./Compromised%20Site.png)
 
 ---
 
@@ -108,6 +112,8 @@ What is the domain name and IP address of the compromised web site?
 What is the domain name and IP address of the exploit kit?  
 
 **Answer 1.4:** http[:]//static[.]domainvertythephones[.]com/xEztiZ7NM12Vj9c2RTB_MT0UEYH_re0UqLWZq_vBhBZGq0KGVP1BTVXxVeSy3Veo | 167.160.46.121
+
+![Exploit Kit Site Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic./Site%20Re-Directed%20To.png)
 
 
 
@@ -118,7 +124,7 @@ What web browser is the Windows host using?
 
 **Answer 1.5:** Mozilla/4.0
 
-![User Agent]()
+![User Agent](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic./User%20Agent.png)
 
 ---
 
@@ -129,7 +135,7 @@ What is the exploit kit involved in this activity?
 
 **Answer 2.1:** SWF (Shockwave Flash) | application/x-shockwave-flash
 
-
+![Shockwave](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic./Shockwave%20Flash.png)
 
 ---
 
@@ -158,6 +164,9 @@ In Wireshark, which tcp.stream contains the malware payload?
 
 **Answer 2.4:** tcp.stream eq 4
 
+<img width="1260" height="646" alt="image" src="https://github.com/user-attachments/assets/5e0a3cd5-4c5f-4450-a1b9-36098814acd9" />
+
+
 ---
 
 
@@ -166,6 +175,9 @@ In Wireshark, which tcp.stream contains the malware payload?
 What version of Flash Player is the Windows host using?  
 
 **Answer 2.5:** x-flash-version: 11,8,800,94
+
+<img width="1246" height="879" alt="image" src="https://github.com/user-attachments/assets/c7efa4d3-cf79-4f4d-904d-ef3cbd7f7aad" />
+
 
 ---
 
@@ -296,6 +308,7 @@ What version of Flash Player is the Windows host using?
 - Screenshot Link
 
 &nbsp; 
+
 
 
 
