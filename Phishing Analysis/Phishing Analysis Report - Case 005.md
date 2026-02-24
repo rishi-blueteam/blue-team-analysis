@@ -76,7 +76,7 @@ This helps to provide a concise overview of the phishing attempt.
 
 - **Language Used:** Portuguese
 
-![Language]()
+![Language](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%205/Language%20of%20Mail.png)
 
 
 ---
@@ -101,7 +101,7 @@ This helps to provide a concise overview of the phishing attempt.
 
 - **Geo Location:** USA
 
-![IP LOOKUP Image]()
+![IP LOOKUP Image](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%205/IP%20Lookup%20mail.png)
 
 
 
@@ -115,7 +115,7 @@ This helps to provide a concise overview of the phishing attempt.
 
 - **DMARC:** Pass
 
-![Email Authentication Results]()
+
 
 
 ### Domain Comparison
@@ -160,7 +160,7 @@ This helps to provide a concise overview of the phishing attempt.
 
 - Abuse Reports: N/A
 
-![ip Score CHeck]()
+![ip Score CHeck](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%205/IP%20Score%20Check.png)
 
 
 ### Domain Analysis
@@ -216,7 +216,7 @@ This helps to provide a concise overview of the phishing attempt.
 
 - **Redirect Chain:** Available
 
-![Redirect Request]()
+![Redirect Request](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%205/Redirect%20Request.png)
 
 
 
@@ -358,17 +358,13 @@ None Present
 
 ### Email Screenshot
 
-![Emailscreenshot]()
+![Emailscreenshot](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%205/Original%20Mail.png)
 
 
 
 ### URL Page Screenshot
 
-![Site ScreenShot]()
-
-
-
-
+![Site ScreenShot](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%205/Site%20Screen%20Shot.png)
 
 
 ---
@@ -382,6 +378,7 @@ Rishab Shorey
 
 
 ---
+
 
 
 
