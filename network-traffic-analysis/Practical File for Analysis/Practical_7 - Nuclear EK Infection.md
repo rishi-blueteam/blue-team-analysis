@@ -221,33 +221,9 @@ Suspicious-File-3:
 ![Suspicious-File-3 Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Suspicious-File-3%20Threat%20Score.png)
 
 
-## Key Takeaways & Learning**
+## Key Takeaways & Learning
 
-
-
-
-
-### What I learned from this analysis**
-
-
-
-
-### Mistakes or confusion faced**
-
-
-
-
-
-### New Wireshark techniques used**
-
--
-
-
-
-### What I would investigate further in a real SOC**
-
--
-
+> i learned to evaluate faster, better, and find exploits, go deeper, and think from every single perspective. EK is a never ending thing it doesn't just happen at a redirect it can happen from a chain of redirects that leads on from one page to another and all can be a part of prompting users to click and do more.
 
 
 <br>
@@ -263,12 +239,8 @@ Suspicious-File-3:
 - MalwareTrafficAnalysis.net exercise page
 
 
-
-- Any malware research links (if used): 
-
-
-
 &nbsp; 
+
 
 
 
