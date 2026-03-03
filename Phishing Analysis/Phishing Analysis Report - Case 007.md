@@ -17,7 +17,7 @@
 
 - **Date Analyzed:** 3-03-2026
 
-- **Email File Name:** {{File Name}}
+- **Email File Name:** Sample EML 1011
 
 - **Source of Sample:** Lab Practical
 
@@ -31,16 +31,21 @@
 
 **Original Mail**:
 
-![Original Mail]()
+![Original Mail](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Original%20Email%20Shown.png)
 
 
 - **Type of phishing:** Impersonation, Money Extorsion, 
 
-- **Intent** (Credential Harvesting / Malware Delivery / Redirect / BEC):
+![Impersonation](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Therpal%20Pro%20Real.png)
 
-- **Key Indicators:**
 
-- **Risk Severity (Low / Medium / High / Critical):**
+- **Intent** (Credential Harvesting / Malware Delivery / Redirect / BEC): Purpose not defined, but most likely Malware delivrey and Money harvesting
+
+- **Key Indicators:** Social Engineering Tactics like Hurry!, Offer!, Ends soon!
+
+- **Risk Severity (Low / Medium / High / Critical):** High
+
+
 
 
 
@@ -76,7 +81,7 @@
 
 - **Language Used:** Default (English)
 
-![Header Analysis - subject, from, to, attachments. Message ID, Date, IP]()
+![Header Analysis - subject, from, to, attachments. Message ID, Date, IP](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Header%20Analysis%20-%20subject%2C%20from%2C%20to%2C%20attachments.%20Message%20ID%2C%20Date.png)
 
 ---
 
@@ -100,7 +105,7 @@
 
 - **Geo Location:** United States
 
-![Domain Results - Domain tools]()
+![Domain Results - Domain tools](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Domain%20Results%20-%20Domain%20tools.png)
 
 ### Email Authentication Results
 
@@ -113,7 +118,7 @@
 - **DMARC:** spf=none (sender IP is 209.85.167.208) smtp.mailfrom=monkey56.skin; dkim=pass (signature was verified) header.d=monkey56-skin.20221208.gappssmtp.com;dmarc=fail action=none header.fr
 
 
-![Email Authentication results]()
+<img width="1318" height="83" alt="image" src="https://github.com/user-attachments/assets/0f0ffa9c-e25e-4605-9481-45c495e8a76a" />
 
 ### Domain Comparison
 
@@ -156,11 +161,10 @@
 
 - Abuse Reports: n/a
 
+![IPScan Analysis](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Domain%20Results%20-%20Domain%20tools.png)
 
 
 ### Domain Analysis
-
-
 
 - Domain Name: tinyurl.com
 
@@ -173,7 +177,6 @@
 - Name Servers: n/a
 
 - Reputation: Abuse / Not Valid
-
 
 
 **Infrastructure Assessment:**
@@ -194,7 +197,6 @@
 ### URL 1
 
 
-
 - **Fanged URL:** https://tinyurl.com/2jcccaj3
 
 - **Defanged URL:** hxxps[:]//tinyurl[.]com/2jcccaj3
@@ -210,6 +212,33 @@
 - **Page Behavior:** N/A (Not known, site taken down by tinyurl due to policy misuse)
 
 
+![Domain Scan 1](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Scan%20-1.png)
+
+![Domain Scan2](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Scan%20-2.png)
+
+![Domain Scan 3](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Scan%20-%203.png)
+
+
+> I also tried expanding to see if the tiny url can be expanded to a full fledged link hidden behind the URL link shortner and hence the results were below
+
+![URL expanding 1](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Tiny%20Url%20Expanding%201.png)
+<br>
+<br>
+
+> There was another URL too which was found in the email
+
+---------------------------------------------------------------
+### URL 2
+
+- **Fanged URL:** https://tinyurl.com/mvejw6rf
+
+- **Defanged URL:** hxxps[:]//tinyurl[.]com/mvejw6rf
+
+> None of the tools were able to scan the url properly, as it didn't show any result which favors during the analysis and hence, I tried expanding to get the expanded url
+
+ ![URL Expansion](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/URL%20Expansion.png)
+
+
 **Analysis:**
 
 
@@ -222,9 +251,7 @@
 
 
 
-## 7. Attachment Analysis (None)
-
-
+## 7. Attachment Analysis (None Present)
 
 
 **Behavioral Observations:**
@@ -296,6 +323,7 @@
 - 209[.]85[.]167[.]208
 - 100[.]127[.]140[.]133
 - 209[.]85[.]220[.]65
+- 74[.]249[.]99[.]69
 
 
 
@@ -314,11 +342,11 @@
 
 ### Email Addresses
 
-- Sender: Stephanie C. Frisbie" <samranefahim@gmail.com>
+- Sender: Stephanie C. Frisbie" <samranefahim@gmail[.]com>
 
 - Reply to: None
 
-- Sent to: kjhgfdxgchvjbkhgfdxcvb@monkey56.skin
+- Sent to: kjhgfdxgchvjbkhgfdxcvb@monkey56[.]skin
 
 
 ---
@@ -405,13 +433,13 @@
 
 ### Email Screenshot
 
-(Insert image)
+![Email ScreenShot](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%207/Original%20Email%20Shown.png)
 
 
 
 ### URL Page Screenshot
 
-(Insert image)
+![]
 
 
 
@@ -431,6 +459,7 @@ R.S
 
 
 ---
+
 
 
 
