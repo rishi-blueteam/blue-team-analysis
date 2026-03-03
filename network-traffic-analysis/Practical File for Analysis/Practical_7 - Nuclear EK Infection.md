@@ -21,7 +21,7 @@
 
 
 
-**Suspected Malware Family (if known):**
+**Suspected Malware Family (if known):** 
  
 
 
@@ -103,6 +103,7 @@ If a malware payload was sent that could possibly infect the user's computer
 
 **Answer** 108.178.15.187 || f9wb0396aobdotyzddcwdtf[.]ilaclama[.]us 
 
+![Neculear EK](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Neuclear%20EK%20.png)
 
 <br>
 
@@ -157,7 +158,11 @@ Refer the Zip File at the site, extract it to find the suspicious file.
 Compromsied Websie GET request redirect
 
 
-![Compromised Website Re-Direct]()
+![Compromised Website Re-Direct](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Compromised%20Website%20Re-Direct.png)
+
+
+![ReDirect Page2](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Re-Directed%20Page%202.png)
+
 
 <br>
 
@@ -165,13 +170,13 @@ Compromsied Websie GET request redirect
 
 - hxxp[:]//f9wb0396aobdotyzddcwdtf[.]ilaclama[.]us/VQlXBEpVSwQ[.]html
 
-![First Site Threat Score]()
+![First Site Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/First%20Site%20Malware%20Threat%20Score.png)
 
 - hxxp[:]//f9wb0396aobdotyzddcwdtf[.]ilaclama[.]us/B0hCSgFdUgdNBhhTTAMCBFAHAQIGXFJMAAc
 
-![Second SIte Threat Score]()
+![Second SIte Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Second%20Site%20Malware%20Threat%20Score.png)
 
-![Exploit Kit Name]()
+![Exploit Kit Name](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Octet%20Stream%2C%20File%20Name%20and%20EK%20type.png)
 
 **File Names:**
 
@@ -188,7 +193,7 @@ Tmp File:
 **SHA-1:** c6a27c939c64d9eee3d81481337af141832a419e
 **SHA-256:** 9d4843ea3f0b0be3b533b50b17e8c1d2460e7136f7a46b4700ea5eb596629d7d 
 
-![File Threat Score tmp]()
+![File Threat Score tmp](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/tmp%20file%20malware.png)
 
 Suspicious-File-1:
 
@@ -196,7 +201,7 @@ Suspicious-File-1:
 - **SHA-1:** 694007857330f013514f045974d70f388e2bd08a
 - **SHA-256:** d9f266eb1dbd2bca408c837c3c4eaa39135417649ace63ba20d58c2df88ea19f 
 
-![Suspicious FIle 1 Threat Score]()
+![Suspicious FIle 1 Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Suspicious-File-1%20Threat%20Score.png)
 
 Suspicious-File-2:
 
@@ -204,7 +209,7 @@ Suspicious-File-2:
 - **SHA-1:** d07ebc0844dcdf79f3ad1e639d0230fe67f4847f
 - **SHA-256:** c4b1c55a90877d0618c2dc8bad01b33f1d60f3613b3673bdb08465569bdb8236 
 
-![Suspicious-File-2 Threat Score]()
+![Suspicious-File-2 Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Suspicious-File-2%20Threat%20Score.png)
 
 
 Suspicious-File-3: 
@@ -213,7 +218,7 @@ Suspicious-File-3:
 - **SHA-1:** 28b9468949d5f3e4be3207fd568d05e654493090
 - **SHA-256:** b4cb839573156364fc2a10a2d0a57cced697f076ce9fe4aa3604ada0b7a77523 
 
-![Suspicious-File-3 Threat Score]()
+![Suspicious-File-3 Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%207%20Nuclear%20EK%20Infection/Suspicious-File-3%20Threat%20Score.png)
 
 
 ## Key Takeaways & Learning**
@@ -264,6 +269,7 @@ Suspicious-File-3:
 
 
 &nbsp; 
+
 
 
 
