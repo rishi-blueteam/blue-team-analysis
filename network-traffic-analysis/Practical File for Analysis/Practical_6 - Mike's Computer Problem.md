@@ -103,7 +103,7 @@ Q-1.4: **MAC address of Mike's desktop computer**
 
 - 08:00:2b:ef:ab:7c
 
-![Mikes COmputer information]()
+![Mikes COmputer information](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/nbns%20mike's%20computer%20information.png)
 
 ### L2-Intermidiate Findings
 
@@ -121,22 +121,28 @@ Q-2.3: **Exploit Kit Name and Content Name**
 
 - Authroot[.]stl
 
-![exploit kit findings]()
+![exploit kit findings](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/EK%20Activity%20Microsoft%20Update.png)
 
 Q-2.4: **Stream Name | host name | User Agent**
 
 - tcp.stream eq 10 | www[.]download.windowsupdate[.]com | Microsoft-CryptoAPI/6.1
 
-![stream host useragent site]()
+![stream host useragent site](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/EK%20Activity%20Microsoft%20Update.png)
 
 ### Addiotional and Extra Findings
 
 - We found an img known as the arrowu[.]jpg which contains a trojan file.
 
-![Arrowjpgmalware]()
+![Arrowjpgmalware](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/Arrowu%20File%20Malware%20JPG.png)
 
 ## Wireshark Filters Used
 
+- http.request
+- dns
+- tcp.stream
+- http.content_type
+- tls
+- nbns
 
 
 
@@ -173,12 +179,16 @@ Q-2.4: **Stream Name | host name | User Agent**
 - **SHA-1:** 3de6f7475b467b46d045eb29ebb100d15212a4f9
 - **SHA-256:** 99e832a42f6b22057816170b18fc0af66b1a34cd745973fd0d6e62cb33258562 
 
+![Email FInding one](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/Email%20Document%20File%20Trojan.png)
+
+
 ### Trojan Document File Hash
 
 **MD5 -** 1a9d39436c1597108f8baf6d7dc5dd45
 **SHA-1 -** 79b631306b575b0fa3e96ef6d554d1203f2fe27d
 **SHA-256 -** db09a7db2f12bff9d64f06c721df40c8d13db47b04d0948598a9c9454af38c56
 
+![}(https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/Email%20Trojan%20File%20Hash%20for%20Url%20Malware.png)
 
 <br>
 
@@ -196,15 +206,6 @@ Q-2.4: **Stream Name | host name | User Agent**
 
 > What confusion I faced is maybe some malware can appear clean and un doubted images may not be the required malware that the user appears to click. It is how I should analyze every small detail and document them and not rush to conclude. Mostly my answers does stick to what is expected. 
 
-
-
-### New Wireshark techniques used**
-
--
-
-
-
-### What I would investigate further in a real SOC**
 
 -
 
@@ -231,6 +232,7 @@ Q-2.4: **Stream Name | host name | User Agent**
 - Screenshot Link
 
 &nbsp; 
+
 
 
 
