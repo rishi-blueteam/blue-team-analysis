@@ -79,7 +79,7 @@ What is the date and time of this activity?
 
 **Answer 1.1:** 2015-01-09 | 16:24:40 - 16:26:21
 
-![Image of the Attack and activity taking place]()
+![Image of the Attack and activity taking place](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%205%3A%20Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic/Date%20and%20Time%20of%20activity.png)
 
 ---
 
@@ -90,7 +90,7 @@ What is the IP address and MAC address of the Windows host that hit the exploit 
 
 **IP-ADDRESS :** 192.168.204.137 | 00:0c:29:9d:b8:6d
 
-
+![Source and MAC](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%205%3A%20Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic/Source%20IP%20and%20MAC.png)
 
 ---
 
@@ -99,8 +99,12 @@ What is the domain name and IP address of the compromised web site?
 
 **Answer 1.3:** www[.]opushangszer[.]hu/ | 94.199.178.119
 
-![iMAGE OF Redirect 1,2 and final]()
-![Iamge of the Site Compromsied Threat Score]()
+![iMAGE OF Redirect 1,2 and final](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%205%3A%20Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic/First%20Redirect%20SWK%201.png)
+
+![iMAGE OF Second redirect](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%205%3A%20Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic/First%20Redirect%20SWK%202.png)
+
+
+![Iamge of the Site Compromsied Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%205%3A%20Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic/Compromised%20Site.png)
 
 ---
 
@@ -118,7 +122,7 @@ What web browser is the Windows host using?
 
 **Answer 1.5:** Mozilla/4.0
 
-![User Agent]()
+![User Agent](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%205%3A%20Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic/User%20Agent.png)
 
 ---
 
@@ -138,7 +142,7 @@ What types of exploits were sent by this exploit kit (Flash, IE, Java, Silverlig
 
 **Answer 2.2:** Shockwave
 
-
+![Shockwave Flash](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%205%3A%20Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic/Shockwave%20Flash.png)
 
 ---
 
@@ -230,6 +234,8 @@ What version of Flash Player is the Windows host using?
 - **SHA-1 :** a17ce7555514d2f60c76ff743e8770bbdbcaefd1
 - **SHA-256 :** b4d8b9886fb5cf940661203594df132212d6f1ee17c726444531ec2b281096c2
 
+![Redirected Site](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%205%3A%20Windows%20user%20views%20a%20website%20and%20gets%20EK%20traffic/Site%20Re-Directed%20To.png)
+
 
 >Exploit Kit Site Landing Page
 
@@ -296,6 +302,7 @@ What version of Flash Player is the Windows host using?
 - Screenshot Link
 
 &nbsp; 
+
 
 
 
