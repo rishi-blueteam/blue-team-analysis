@@ -179,8 +179,8 @@ Q-2.4: **Stream Name | host name | User Agent**
 - **SHA-1:** 3de6f7475b467b46d045eb29ebb100d15212a4f9
 - **SHA-256:** 99e832a42f6b22057816170b18fc0af66b1a34cd745973fd0d6e62cb33258562 
 
-![Email FInding one](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/Email%20Document%20File%20Trojan.png)
 
+![](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/Email%20Trojan%20File%20Hash%20for%20Url%20Malware.png)
 
 ### Trojan Document File Hash
 
@@ -188,7 +188,9 @@ Q-2.4: **Stream Name | host name | User Agent**
 **SHA-1 -** 79b631306b575b0fa3e96ef6d554d1203f2fe27d
 **SHA-256 -** db09a7db2f12bff9d64f06c721df40c8d13db47b04d0948598a9c9454af38c56
 
-![}(https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/Email%20Trojan%20File%20Hash%20for%20Url%20Malware.png)
+![Email FInding one](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%206%3A%20Mike's%20Computer%20Problem/Email%20Document%20File%20Trojan.png)
+
+
 
 <br>
 
@@ -232,6 +234,7 @@ Q-2.4: **Stream Name | host name | User Agent**
 - Screenshot Link
 
 &nbsp; 
+
 
 
 
