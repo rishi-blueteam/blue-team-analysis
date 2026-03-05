@@ -21,7 +21,7 @@
 
 
 
-**File Link:** 
+**File Link:** https://www.malware-traffic-analysis.net/2015/02/24/index.html
 
 
 
@@ -100,6 +100,9 @@ You review the pcap and document the following:
 **Answer**  10.10.100.139| 28:92:4a:3b:5f:cd (HewlettPacka_3b:5f:cd) | STEPHANIE-PC<00> 
 
 
+<img width="1914" height="928" alt="NBNS and required INformation" src="https://github.com/user-attachments/assets/ca033f9c-70d3-41bb-8132-1cc5d5ede420" />
+
+
 ----------------------------- 
 
 
@@ -107,16 +110,20 @@ You review the pcap and document the following:
 
 **Site compromised:** www[.]legacylifespaces[.]com
 
-![Compromised Website]()
+![Compromised Website](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/Compromised%20Website.png)
 
-![Redirect Seen of Compromsied Wesbite]()
+![Redirect Seen of Compromsied Wesbite](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/Compromised%20Website%20First%20Re-Direct.png)
 
-**Malacious Website:** 
+**Malacious Website:** hxxp://mpzfprxfdn[.]serveftp.com/tdstest/1b346b77c2e9991535ede3925f5463e598/
+
 
 
 **EK Found:** SilverFlash
 
-![SilverFlash]()
+
+After the user has been on the same site for a while he ends up coming across another malware:
+
+**EK Found:** 
 
 
 PDF Found
@@ -200,6 +207,7 @@ PDF Found
 - Screenshot Link
 
 &nbsp; 
+
 
 
 
