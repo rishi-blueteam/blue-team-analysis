@@ -35,13 +35,15 @@ Provide a concise overview of the phishing attempt.
 
 
 
-- Type of phishing:
+- **Type of phishing:** Impersonation
 
-- Intent (Credential Harvesting / Malware Delivery / Redirect / BEC):
+![Impersonation of Domain](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/Suksapan%20Domain%20Phishing%20Possible.png)
 
-- Key Indicators:
+- **Intent (Credential Harvesting / Malware Delivery / Redirect / BEC):** Money Theft
 
-- Risk Severity (Low / Medium / High / Critical):
+- **Key Indicators:** Poor Languagge, Grammer, Reply to mail and threat scores
+
+- **Risk Severity (Low / Medium / High / Critical):** Medium
 
 
 
@@ -77,10 +79,10 @@ Provide a concise overview of the phishing attempt.
 
 - **Language Used:** English
 
-![Original Email]()
+![Original Email](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/Original%20Email.png)
 
 
-![Tool Email Header Analysis]()
+![Tool Email Header Analysis](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/Tool%20Email%20Header%20Analysis.png)
 
 
 ---
@@ -107,9 +109,9 @@ Provide a concise overview of the phishing attempt.
 
 - **Geo Location:** N/A
 
-![ip1_Tool-1_]()
+![ip1_Tool-1_](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/ip1_talos_tool.png)
 
-![ip1_tool-1]()
+![ip1_tool-1](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/ip1_whoisdomian_tool.png)
 
 #### IP 2
 
@@ -124,9 +126,9 @@ Provide a concise overview of the phishing attempt.
 > Other detail refer the image below from both tools
 
 
-![ip2_whoisdomain_tool]
+![ip2_whoisdomain_tool](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/ip2_whoisdomian_tool.png)
 
-![ip2_talos_tool]
+![ip2_talos_tool](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/ip2_talos_tool.png)
 
 
 #### IP 3
@@ -142,9 +144,9 @@ Provide a concise overview of the phishing attempt.
 > Other detail refer the image below from both tools
 
 
-![ip3_whoisdomain_tool]
+![ip3_whoisdomain_tool](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/ip3_whoisdomian_tool.png)
 
-![ip3_talos_tool]
+![ip3_talos_tool](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/ip3_talos_tool.png)
 
 
 
@@ -162,7 +164,7 @@ Provide a concise overview of the phishing attempt.
 
 - **DMARC:** softfail
 
-
+> Refer the Email Header Analysis Tool As above
 
 ### Domain Comparison
 
@@ -226,9 +228,9 @@ Provide a concise overview of the phishing attempt.
 
 - **Threat Score** 2/94
 
-![Virus Total DOmain Check]()
+![Virus Total DOmain Check](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/Virus%20Total%20Domain%20Check.png)
 
-![Virus Total Domain Threat Score]()
+![Virus Total Domain Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/Virus%20Total%20Domain%20Check%20Threat%20Score.png)
 
 
 
@@ -434,7 +436,7 @@ Provide a concise overview of the phishing attempt.
 
 ### Email Screenshot
 
-![Original Email]()
+![Original Email](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%208/Original%20Email.png)
 
 
 
@@ -448,6 +450,7 @@ RS
 
 
 ---
+
 
 
 
