@@ -77,7 +77,7 @@ Provide a concise overview of the phishing attempt.
 
 - **Language Used:** English (ENG)
 
-
+![Header Meta Data Analysis](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Header%20Meta%20Data%20Information.png)
 
 ---
 
@@ -101,13 +101,11 @@ Provide a concise overview of the phishing attempt.
 
 - **Geo Location:** United States
 
-![Tool 1 IP Analysis]()
+![Tool 1 IP Analysis](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Tool-1%20Analysis.png)
 
-![Tool 2 IP Analysis]()
+![Tool 2 IP Analysis](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Tool-2%20Analysis.png)
 
 ### Email Authentication Results
-
-
 
 - **SPF:** Pass
 
@@ -149,10 +147,10 @@ Provide a concise overview of the phishing attempt.
 
 #### IP-1 Analysis
 
+> We found this information of extra IP via the Custom Email Analyzer Tool as seen in the Above Image of the Header Analyzer
+
 - **IP-1 Found:** 192.168.4.33 (Assigned by Internet Assigned Number Authority)
-
-
-
+- 
 - **IP-2 Found:** 192.1.1.2 
 
 - **ASN:** AS1856 DISN-PILOTNET2 - RTX BBN Technologies, Inc., US (registered May 27, 1992) 
@@ -163,10 +161,11 @@ Provide a concise overview of the phishing attempt.
 
 - **Reputation Check Result:** 0/94 Threat score (Virus Total)
 
-![IP2_Virus Total Reputation Check]()
+![IP2_Virus Total Reputation Check](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/IP2_Virus%20Total%20Reputation%20Check.png)
 
 > Domain Tools Identifies there is a domain that uses the IP
 
+![IP2_Virus Total Reputation Check](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Reverse%20IP%20To%20find%20Domain.png)
 ![Reverse IP To find Domain]()
 
 - **Abuse Reports:** N/A
@@ -188,7 +187,7 @@ Provide a concise overview of the phishing attempt.
 
 - **Reputation:** Not Found
 
-
+![Domain Analysis](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Domain%20Analysis%20Values.png)
 
 **Infrastructure Assessment:**
 
@@ -206,7 +205,6 @@ Provide a concise overview of the phishing attempt.
 
 
 **Analysis:**
-
 
 
 > No URLs were directly present in the email body; however, the malware attachment contains embedded URLs that are contacted during execution. These URLs are used by the malware to establish command-and-control communication, download additional payloads, or exfiltrate system information. The presence of multiple contacted domains and IP addresses during sandbox analysis confirms that the malware attempts to communicate externally to retrieve instructions or additional malicious components
@@ -227,7 +225,7 @@ Provide a concise overview of the phishing attempt.
 
 - **File Size:** 24.0 KiB (24,576 bytes)
 
-![File Details]()
+![File Details](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/File%20Details.png)
 
 - **MD5:** 1d38c362198ad67329fdf58b4743165e
 
@@ -239,20 +237,20 @@ Provide a concise overview of the phishing attempt.
 
 - **Contains Embedded URLs:** Yes
 
-![Embedded URL Contacted]()
+![Embedded URL Contacted](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Embedded%20URL%20Contacted.png)
 
 - **Threat Categories:** trojan, Downloader, upatre, smnf, waski 
 
 
-![Virus Total Hash Values and Threat Score]()
+![Virus Total Hash Values and Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Virus%20Total%20Hash%20Values%20and%20Threat%20Score.png)
 
 **Graph Summary** 
 
-![Graph Summary]()
+![Graph Summary](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Graph%20Summary.png)
 
 **Crowd Strike Rules Triggerd**
 
-![CrowdStrike Rules]()
+![CrowdStrike Rules](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/CrowdStrike%20Rules.png)
 
 
 **Behavioral Observations:**
@@ -262,7 +260,7 @@ Provide a concise overview of the phishing attempt.
 > The attachment document8961294.scr is a Windows executable disguised as a document file. Upon execution, the malware performs several malicious actions including process injection, system information discovery, and network configuration discovery. Behavioral analysis shows the malware attempts to evade detection through techniques such as obfuscated files and indicator removal. The malware establishes outbound connections to multiple domains and IP addresses, indicating command-and-control activity. Additional behaviors include downloading or interacting with external resources, creating dropped files, and attempting to propagate within the environment.
 
 
-![Behavioral Pattern for Analysis]()
+![Behavioral Pattern for Analysis](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Behavioral%20Pattern%20For%20Analysis.png)
 
 ---
 
@@ -431,19 +429,13 @@ Provide a concise overview of the phishing attempt.
 
 ### Email Screenshot
 
-![Original Email]()
+![Original Email](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%206/Original%20Email.png)
 
 
 
 ### URL Page Screenshot
 
 N/A
-
-
-### Attachment Preview
-
-![aTTACHMENT pREVIEW]()
-
 
 ---
 
@@ -456,6 +448,7 @@ RS
 
 
 ---
+
 
 
 
