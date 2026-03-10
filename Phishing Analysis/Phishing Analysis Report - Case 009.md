@@ -78,7 +78,7 @@ Provide a concise overview of the phishing attempt.
 
 - **Language Used:** English (ENG)
 
-
+![Header Analysis](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%209/Header%20Metadata%20Overview.png)
 
 ---
 
@@ -101,9 +101,9 @@ Provide a concise overview of the phishing attempt.
 
 - **Geo Location:** South Africa
 
-![Tool-1]()
+![Tool-1](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%209/Tool-1.png)
 
-![Tool-2]()
+![Tool-2](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%209/Tool-2.png)
 
 
 
@@ -163,7 +163,7 @@ Provide a concise overview of the phishing attempt.
 
 - **Abuse Reports:** N/A
 
-
+![IP2](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%209/ip2.png)
 
 #### IP-3 Analysis
 
@@ -171,10 +171,10 @@ Provide a concise overview of the phishing attempt.
 
 > Assigned by the Internet Assigned Numbers Authority (IANA)
 
+![IP-3](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%209/IP-3%20Results_iana.png)
+
 
 ### Domain Analysis
-
-
 
 - **Domain Name:** suksapan.or.th
 
@@ -188,9 +188,9 @@ Provide a concise overview of the phishing attempt.
 
 - **Reputation:** False Positive Alert
 
-![Domain ANalysis Virus Total]()
+![Domain ANalysis Virus Total](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%209/Domain%20ANALYSIS%20rESULTS_%20Virus%20Total.png)
 
-![Virus Total Threat Score]()
+![Virus Total Threat Score](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%209/Virsu%20Total%20Threat%20Score.png)
 
 
 
@@ -210,8 +210,6 @@ Provide a concise overview of the phishing attempt.
 =
 
 **Analysis:**
-
-
 
 > No URLs are present in the email. The absence of links indicates that the attacker’s objective is not immediate redirection to a phishing website. Instead, the email is designed to initiate direct communication between the victim and the attacker through the provided reply-to email address. This approach is common in advance-fee fraud scams where attackers attempt to build trust and gradually request sensitive information or financial transfers during follow-up communications.
 
@@ -388,7 +386,7 @@ Provide a concise overview of the phishing attempt.
 
 ### Email Screenshot
 
-![Original Email Screenshot]()
+![Original Email Screenshot](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/Phishing%20Analysis/Screenshots/Analysis%209/Original%20Mail.png)
 
 
 
@@ -403,6 +401,7 @@ Rishab Shorey
 
 
 ---
+
 
 
 
