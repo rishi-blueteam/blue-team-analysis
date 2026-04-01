@@ -1,0 +1,268 @@
+11/26-10:19:41.464546 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:42.399669 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:44.470841 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:45.414782 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:46.393845 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:49.396641 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:52.396657 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:20:14.236416 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:63950
+11/26-10:20:15.759828 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:62527
+11/26-10:20:16.783489 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:62432
+11/26-10:20:45.849438 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:45.849438 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.046139 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.046139 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.348055 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.348055 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.749227 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.749227 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:21:46.921682 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:21:46.921682 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:22:47.103354 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:22:47.103354 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:23:47.260093 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:23:47.260093 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:24:47.427092 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:24:47.427092 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:25:47.485672 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:25:47.485672 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:26:47.546358 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:26:47.546358 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:27:47.608604 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:27:47.608604 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:28:47.763032 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:28:47.763032 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:29:18.422564 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:61048
+11/26-10:29:47.818149 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:29:47.818149 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:30:47.829451 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:30:48.022865 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:30:48.022865 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:30:50.834538 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:30:53.847522 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:31:48.318189 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:31:48.318189 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:32:48.487475 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:32:48.487475 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:33:48.558212 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:33:48.558212 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:34:48.715402 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:34:48.715402 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:35:33.438034 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:50712
+11/26-10:35:48.896946 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:35:48.896946 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:36:48.946138 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:36:48.946138 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:37:49.001919 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:37:49.001919 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:38:49.062950 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:38:49.062950 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:39:49.216290 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:39:49.216290 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:40:49.369834 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:40:49.369834 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:41:49.523158 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:41:49.523158 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:42:49.680246 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:42:49.680246 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:43:49.737747 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:43:49.737747 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:44:49.880222 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:44:49.880222 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:45:49.936096 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:45:49.936096 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:46:50.090084 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:46:50.090084 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:47:50.148715 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:47:50.148715 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:48:50.207754 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:48:50.207754 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:49:50.367131 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:49:50.367131 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:50:48.372475 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:55765
+11/26-10:50:50.424378 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:50:50.424378 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:51:50.485705 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:51:50.485705 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:52:50.640951 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:52:50.640951 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:53:50.794559 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:53:50.794559 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:54:51.056411 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:54:51.056411 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:55:51.112829 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:55:51.112829 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:56:48.377331 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:56349
+11/26-10:56:51.175685 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:56:51.175685 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:57:51.330432 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:57:51.330432 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:58:51.593448 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:58:51.593448 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:59:51.748754 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:59:51.748754 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:00:52.010090 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:00:52.010090 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:01:52.161738 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:01:52.161738 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:02:52.411164 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:02:52.411164 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:03:52.561197 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:03:52.561197 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:04:52.717415 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:04:52.717415 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:05:52.967228 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:05:52.967228 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:06:53.228563 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:06:53.228563 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:07:33.343164 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:49456
+11/26-11:07:53.382552 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:07:53.382552 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:08:40.744444 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:59053
+11/26-11:10:28.801338 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:28.801338 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:29.009850 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:29.009850 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:29.317405 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:29.317405 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:11:03.325324 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:65531
+11/26-11:11:29.372894 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:11:29.372894 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:12:29.528770 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:12:29.528770 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:13:29.682016 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:13:29.682016 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-10:19:41.464546 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:42.399669 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:44.470841 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:45.414782 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:46.393845 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:49.396641 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:19:52.396657 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:20:14.236416 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:63950
+11/26-10:20:15.759828 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:62527
+11/26-10:20:16.783489 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:62432
+11/26-10:20:45.849438 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:45.849438 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.046139 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.046139 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.348055 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.348055 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.749227 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:20:46.749227 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:21:46.921682 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:21:46.921682 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:22:47.103354 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:22:47.103354 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:23:47.260093 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:23:47.260093 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:24:47.427092 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:24:47.427092 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:25:47.485672 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:25:47.485672 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:26:47.546358 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:26:47.546358 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:27:47.608604 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:27:47.608604 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:28:47.763032 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:28:47.763032 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:29:18.422564 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:61048
+11/26-10:29:47.818149 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:29:47.818149 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:30:47.829451 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:30:48.022865 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:30:48.022865 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:30:50.834538 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:30:53.847522 [**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 10.11.26.183:52603 -> 239.255.255.250:1900
+11/26-10:31:48.318189 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:31:48.318189 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:32:48.487475 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:32:48.487475 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:33:48.558212 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:33:48.558212 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:34:48.715402 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:34:48.715402 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:35:33.438034 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:50712
+11/26-10:35:48.896946 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:35:48.896946 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:36:48.946138 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:36:48.946138 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:37:49.001919 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:37:49.001919 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:38:49.062950 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:38:49.062950 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:39:49.216290 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:39:49.216290 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:40:49.369834 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:40:49.369834 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:41:49.523158 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:41:49.523158 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:42:49.680246 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:42:49.680246 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:43:49.737747 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:43:49.737747 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:44:49.880222 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:44:49.880222 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:45:49.936096 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:45:49.936096 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:46:50.090084 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:46:50.090084 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:47:50.148715 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:47:50.148715 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:48:50.207754 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:48:50.207754 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:49:50.367131 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:49:50.367131 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:50:48.372475 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:55765
+11/26-10:50:50.424378 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:50:50.424378 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:51:50.485705 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:51:50.485705 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:52:50.640951 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:52:50.640951 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:53:50.794559 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:53:50.794559 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:54:51.056411 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:54:51.056411 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:55:51.112829 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:55:51.112829 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:56:48.377331 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:56349
+11/26-10:56:51.175685 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:56:51.175685 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:57:51.330432 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:57:51.330432 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:58:51.593448 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:58:51.593448 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:59:51.748754 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-10:59:51.748754 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:00:52.010090 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:00:52.010090 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:01:52.161738 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:01:52.161738 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:02:52.411164 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:02:52.411164 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:03:52.561197 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:03:52.561197 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:04:52.717415 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:04:52.717415 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:05:52.967228 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:05:52.967228 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:06:53.228563 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:06:53.228563 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:07:33.343164 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:49456
+11/26-11:07:53.382552 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:07:53.382552 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53362 -> 194.180.191.64:443
+11/26-11:08:40.744444 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:59053
+11/26-11:10:28.801338 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:28.801338 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:29.009850 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:29.009850 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:29.317405 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:10:29.317405 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:11:03.325324 [**] [1:254:17] "PROTOCOL-DNS SPOOF query response with TTL of 1 min. and no authority" [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.11.26.3:53 -> 10.11.26.183:65531
+11/26-11:11:29.372894 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:11:29.372894 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:12:29.528770 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:12:29.528770 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:13:29.682016 [**] [1:1002001:1] "HTTP Form Submission Detected" [**] [Priority: 0] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
+11/26-11:13:29.682016 [**] [1:44678:4] "POLICY-OTHER NetSupport Manager RAT outbound connection detected" [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.11.26.183:53500 -> 194.180.191.64:443
