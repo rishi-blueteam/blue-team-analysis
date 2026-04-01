@@ -66,11 +66,11 @@ You work as a analyst at a Security Operation Center (SOC) for a medical researc
 
 
 
-**Notable protocols observed:** 
+**Notable protocols observed:** udp,frame,ip,quic,tls,tcp,eth, lldap, ssdp, tcp
 
 
 
-**Timezone used for analysis:**
+**Timezone used for analysis:** UTC
 
 
 
@@ -96,6 +96,9 @@ You work as a analyst at a Security Operation Center (SOC) for a medical researc
 - **MAC Address:** d0:57:7b:ce:fc:8b
 - **Windows Username:** oboomwald
 
+![Basic Information about the Client](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Basic%20Information%20about%20client.png)
+
+![Hostname](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Hostname%20.png)
 
 <br>
 
@@ -109,28 +112,61 @@ You work as a analyst at a Security Operation Center (SOC) for a medical researc
 
 **Answer:** 
 
+We are first able to notice the client visited a site where due to which we could have possibly been redirected to another website due to a fake browser update event. There are not threat score present but we still take this into accountability. The site user first visited was:
+
+- hxxp://classicgrand[.]com
+
+![First Link of Malware Found](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/First%20Link%20to%20Malware%20Site%20Found.png)
+
+The user must have been re-directed
+
+
 - hxxp://modandcrackedapk[.]com (193[.]42[.]38[.]139)
+
+![ Malware Found](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Possible%20Malware.png)
+
+**Threat Score of Malware given below**
+
+![Threat Score of First site of Malware]()https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Malware%20Threat%20Score.png)
+
 - hxxp://confirmsubscription[.]com (13[.]56[.]30[.]207)
+
+![Re-Directed Site Malware Link Found](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Re-Directed%20Malware.png)
+
+
+**Threat Score of Re-Directed Malware**
+
+> We are able to notice false positive possibility due to the reason that the threat score is 1 out of 94
+
+![Threat Score of Redirected Malware](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Possible%20Re-Directed%20Malware.png)
+
+
+> There is another malware link which was possibly found and it is highly classified as a trojan of Netsupport. This is mostly said to be a SOCGHOSHLY kind of software update threat for browsers, we could anyway refer this online for the threat presence and we can refer to the user agent to support the decision of the NetSupport Server which is present
+
+![NetSupport User AGent Server Hello Message Sent](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Server%20for%20Netsupport%20Possible.png)
+
 - hxxp://geo[.]netsupportsoftware[.]com/location/loca[.]asp (104[.]26[.]1[.]231)
   
-![Possible Malware]()
 
-![Another Possible Malware]()
+![Another Possible Malware](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Another%20Possible%20Malware%20Found.png)
 
-![Url found in Malware site]()
+> Threat Present in another malware site
 
-**Redirected Site**
+![Threat Score of another Malware](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Another%20Malware%20site%20threat%20Score.png)
 
-- confirmsubscription[.]com 13[.]56[.]30[.]207
+> There was also a re-directed site present in the URL present below:
 
-![Redirected Site]()
+![Url found in Malware site](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Possible%20url%20found%20in%20the%20Malware%20site.png)
 
-- URL Found in redirected site
 
-![Url found in Re-Directed Site]()
+> Since there were multiple POST request taking place, analysis of that particular site was also needed and hence we take notes of this crucial indicator too.
 
-- Threat Score of Malware
-![Threat Score of Re-Directed Site Malware]()
+- http.//194-180-191-64.mivcloud.com (194.180.191.64)
+
+![Submission Post Request sent for Site](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Submission%20Post%20Request.png)
+
+
+  ![Threat Score for Malware SUbmission Request](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/Malware%20Threat%20Score%20in%20Form%20Submission%20Site.png)
 
 
 <br>
@@ -151,7 +187,7 @@ You work as a analyst at a Security Operation Center (SOC) for a medical researc
 
 ## Snort Alerts Captured
 
-[Snort Alerts File]()
+[Snort Alerts File](https://github.com/rishi-blueteam/blue-team-analysis/blob/main/network-traffic-analysis/Screenshots-per-Case/Practical%2011%20-%20Nemetodes/alert_fast.txt)
 
 
 
@@ -161,24 +197,29 @@ You work as a analyst at a Security Operation Center (SOC) for a medical researc
 
 ## Indicators of Compromise (IOCs)
 
-Any Domains
+**Any Domains**
 
+- classicgrand.com
 - modandcrackedapk[.]com 
 - confirmsubscription[.]com 
 - geo[.]netsupportsoftware[.]com/location/loca[.]asp
+
 
 User Agents
 
 **IP-ADDRESS**
 
-193[.]42[.]38[.]139
-13[.]56[.]30[.]207
-104[.]26[.]1[.]231
+- 193[.]42[.]38[.]139
+- 13[.]56[.]30[.]207
+- 104[.]26[.]1[.]231
+- 194[.]180[.]191[.]64
 
 
 **RE-Directs**
 
-confirmsubscription[.]com 
+
+- modandcrackedapk[.]com 
+- confirmsubscription[.]com 
 
 <br>
 
@@ -222,13 +263,6 @@ It is important to not just follow one way to find threats and exploints but dis
 > I haven't used new techniques, it is bout using new filters to find key information that become artifacts that help us get crucial information out from the pcaps.
 
 
-
-### What I would investigate further in a real SOC**
-
--
-
-
-
 <br>
 
 
@@ -243,13 +277,13 @@ It is important to not just follow one way to find threats and exploints but dis
 
 
 
-Any malware research links
+**Any malware research links**
 
-- 
+- https://www.proofpoint.com/us/blog/threat-insight/are-you-sure-your-browser-date-current-landscape-fake-browser-updates#870527997
+- https://threatfox.abuse.ch/ioc/1347180/
+- https://socprime.com/active-threats/smartapesg-delivers-remcos/
 
 
-
-- Screenshot Link
 
 &nbsp; 
 
